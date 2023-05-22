@@ -1,0 +1,26 @@
+{
+    "locations": [
+    {
+    "name": "Rocky Steps",
+    "image": "images/philadelphia-museum-of-art.jpg",
+    "clue": "You might recognize these steps from a famous movie scene. \n \"ADRIEEEENNNEEE!!\"",
+    "latitude": 39.965398,
+    "longitude": -75.180137
+    },
+    {
+    "name": "Reading Terminal Market",
+    "image": "images/reading-terminal-market.jpg",
+    "clue": "I'm a historic indoor market where you can find delicious food and fresh produce.",
+    "latitude": 39.953793,
+    "longitude": -75.158757
+    }
+    ,
+    {
+    "name": "Independence Hall",
+    "image": "images/independence-hall.jpg",
+    "clue": "I'm where the Declaration of Independence and the US Constitution were both signed.",
+    "latitude": 39.948675,
+    "longitude": -75.149212
+    }
+]
+}

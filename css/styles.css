@@ -1,0 +1,98 @@
+
+body {
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+#how-close {
+  min-height: 100px;
+  width: auto;
+}
+
+#picture {
+  padding-top: 20px;
+  min-height: 50%;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+  /* styles for screens with a maximum width of 480px, such as phones */
+  #image {
+    max-width: 40%; /* adjust the percentage as needed */
+    height: auto; /* add this line to maintain aspect ratio */
+  }
+}
+
+#image {
+  border: solid 5px white;
+  filter: blur(20px);
+  max-width: 50%;
+  height: auto;
+}
+
+#clue {
+  height: 20px;
+  width: auto;
+  padding-bottom: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#start-tracking {
+  display: block;
+  width: 30%;
+  margin: auto
+}
+
+#get-next-clue {
+  display: none;
+  width: 30%;
+  margin: auto
+}
+
+header {
+  padding-top: 5px;
+}
+
+#start-button-div {
+  padding-top: 20px;
+}
+
+#start-over-button {
+  display: none;
+  width: 30%;
+  margin: 10px auto 0;
+}
+
+#start-game {
+  display: block;
+  margin: auto;
+}
+
+#main {
+  display: none;
+}
+
+#map {
+  border: solid 2px white;
+  height: 200px;
+  background-color: silver;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1px;
+}
